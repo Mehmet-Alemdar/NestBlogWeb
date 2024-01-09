@@ -6,11 +6,14 @@
     <div class="flex-1 px-3 border-r ">
       <LatestBlog />
     </div>
-    <div class="flex-1 px-3">4</div>
+    <div class="flex-1 px-3">
+      <MostRead />
+    </div>
   </div>
 </template>
 
 <script setup>
 import RandomTopic from '../components/RandomTopic.vue';
 import LatestBlog from '../components/LatestBlog.vue';
+import MostRead from '../components/MostRead.vue';
 </script>

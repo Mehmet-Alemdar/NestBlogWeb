@@ -5,7 +5,6 @@
       <p class="px-2 py-1 border-2 text-sm font-semibold">Politics</p>
       <p class="text-[#898989] font-extralight text-sm font-semibold">April 9, 2024</p>
     </div>
-    
     <div class="flex flex-col gap-2">
       <p class="text-2xl font-semibold">Nicola Sturgeon Reported to Police
 Over Apparent Face Mask Law Breach</p>
