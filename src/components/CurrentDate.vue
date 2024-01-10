@@ -1,5 +1,5 @@
 <template>
-  <div class="text-sm">
+  <div class="text-sm flex flex-col justify-center">
     <p class="font-bold	">{{ formattedDay }}</p>
     <p class="font-extralight">{{ formattedDate }}</p>
   </div>
