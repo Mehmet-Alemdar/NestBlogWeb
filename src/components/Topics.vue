@@ -1,10 +1,24 @@
 <template>
-  <div class="flex flex-row gap-10">
+  <div class="flex flex-col text-center md:flex-row gap-2 md:gap-10">
     <CurrentDate />
-    <button class="text-base font-extralight text-[#171717] hover:font-light min-w-16">All</button>
-    <button class="text-base font-extralight text-[#171717] hover:font-light min-w-16">World</button>
-    <button class="text-base font-extralight text-[#171717] hover:font-light min-w-16">Technology</button>
-
+    <div class="flex flex-row overflow-y-auto gap-10 py-6 md:pb-6">
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">Technology</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">Technology</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">Technology</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">Technology</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">All</button>
+        <button class="text-base font-extralight text-left text-[#171717] hover:font-light">World</button>
+      </div>
   </div>
 </template>
 
