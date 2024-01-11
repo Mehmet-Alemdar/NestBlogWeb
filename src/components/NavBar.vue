@@ -1,12 +1,12 @@
 <template>
-  <div class="w-11/12 flex justify-center border-b-2 p-4 m-4">
+  <div class="w-11/12 flex justify-center border-b-2 p-4 mt-4">
     <div class="bg-white flex-1 max-w-screen-2xl text-center relative">
       <h1 class="font-black text-2xl absolute inset-x-0 mx-auto w-36 mt-2">NESTBLOG</h1>
       <div class="flex justify-end">
-        <div class="ml-auto hidden md:flex">
+        <div class="ml-auto hidden lg:flex">
           <LoginButtons />
         </div>
-        <div class="ml-auto flex md:hidden">
+        <div class="ml-auto flex lg:hidden">
           <MenuButton />
         </div>
       </div>
