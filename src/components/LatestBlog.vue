@@ -13,7 +13,7 @@
         <span class="text-sm md:text-base">By </span>
         <span class="text-[#171717] text-sm md:text-base font-bold">John Doe</span>
       </div>
-      <button v-if="truncated" class="underline underline-offset-auto w-20 text-sm md:text-xs text-left font-medium">Read More</button>
+      <router-link v-if="truncated" to="blog" class="underline underline-offset-auto text-xs md:text-sm text-left font-medium">Continue Reading</router-link>
     </div>
   </div>
 </template>

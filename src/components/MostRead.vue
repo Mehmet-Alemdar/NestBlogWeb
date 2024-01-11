@@ -7,7 +7,7 @@
         <p class="text-[#898989] font-extralight text-xs md:text-sm font-semibold">April 9, 2024</p>
       </div>
       <p class="text-xs sm:text-base font-semibold">Nicola Sturgeon Reported to Police OverApparent Face Mask Law Breach</p>
-      <button class="underline underline-offset-auto text-xs md:text-sm text-left font-medium">Continue Reading</button>
+      <router-link to="blog" class="underline underline-offset-auto text-xs md:text-sm text-left font-medium">Continue Reading</router-link>
     </div>
     <div class="flex-1 aspect-w-1 aspect-h-1 lg:order-first">
       <img src="https://ychef.files.bbci.co.uk/1600x900/p0g6v92f.webp" alt="avatar" class="object-cover sm:max-w-xl w-full  sm:h-44"/>
