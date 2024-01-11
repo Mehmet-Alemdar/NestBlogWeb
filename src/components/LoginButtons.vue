@@ -6,6 +6,6 @@
         <router-link to="signin" class="text-[#fff] ml-auto">Sign in</router-link>
       </div>
     </div>
-    <button class="ml-2 px-4 py-1.5 rounded border border-[#171717]">Sign up</button>
+    <router-link to="signup" class="ml-2 px-4 py-1.5 rounded border border-[#171717]">Sign up</router-link>
   </div>
 </template>
