@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col mt-2 py-5 lg:flex-row">
-    <div class="flex-1 pr-3 lg:border-r">
+    <div class="flex-1 px-3 lg:border-r">
       <RandomTopic />
     </div>
     <div class="flex-1 px-3 lg:border-r">
