@@ -6,7 +6,7 @@
         <p class="px-2 py-1 border-2 text-xs md:text-sm font-semibold">Politics</p>
         <p class="text-[#898989] font-extralight text-xs md:text-sm font-semibold">April 9, 2024</p>
       </div>
-      <p class="text-xs md:text-base font-semibold">Nicola Sturgeon Reported to Police OverApparent Face Mask Law Breach</p>
+      <p class="text-xs sm:text-base font-semibold">Nicola Sturgeon Reported to Police OverApparent Face Mask Law Breach</p>
       <button class="underline underline-offset-auto text-xs md:text-sm text-left font-medium">Continue Reading</button>
     </div>
     <div class="flex-1 aspect-w-1 aspect-h-1 lg:order-first">
