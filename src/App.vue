@@ -2,10 +2,10 @@
   <div class="flex flex-col items-center z-1">
     <Navbar />
     <div class="w-11/12">
-      <Topics />
-      <Home />
+      <!-- <Topics /> -->
+      <!-- <Home /> -->
+      <router-view />
     </div>
-    <!-- <router-view /> -->
   </div>
   <SideMenu />
 </template>
