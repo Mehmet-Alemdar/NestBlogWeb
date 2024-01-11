@@ -1,7 +1,11 @@
 <template>
   <transition name="fade">
-    <div v-if="menuOpen" class="bg-black/50 fixed h-full w-full right-0 top-0 transition-opacity" @click="toggleMenu">
-      <div class="bg-white h-full w-8/12 flex justify-end">
+    <div v-if="menuOpen" class="bg-black/50 fixed h-full w-full right-0 top-0 transition-opacity">
+      <div class="bg-white h-full w-8/12 flex">
+        <div class="flex-1 flex flex-col mt-12 gap-4">
+          <button class="border-b pb-4">Sign in</button>
+          <button class="border-b pb-4">Sign up</button>
+        </div>
           <div class="text-2xl text-black h-full flex flex-col justify-center">
             <button class="bg-black text-white p-2">
               <font-awesome-icon icon="fa-solid fa-times" @click="toggleMenu"/>
