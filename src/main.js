@@ -5,9 +5,9 @@ import './style.css'
 import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUser, faClock, faBars, faTimes, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faClock, faBars, faTimes, faStar, faHeart, faArrowRight, faArrowLeft, faPlus } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faUser, faClock, faBars, faTimes, faStar)
+library.add(faUser, faClock, faBars, faTimes, faStar, faHeart, faArrowRight, faArrowLeft, faPlus)
 
 createApp(App)
   .use(router)
