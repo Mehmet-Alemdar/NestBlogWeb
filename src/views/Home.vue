@@ -15,9 +15,26 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import RandomTopic from '../components/RandomTopic.vue';
 import LatestBlog from '../components/LatestBlog.vue';
 import MostRead from '../components/MostRead.vue';
 import Topics from '../components/Topics.vue';
+import { mapState } from 'vuex';
+
+export default {
+  name: 'Home',
+  components: {
+    RandomTopic,
+    LatestBlog,
+    MostRead,
+    Topics
+  },
+  computed: {
+    ...mapState(['allBlogs'])
+  },
+  mounted() {
+    this.$store.dispatch('fetchAllBlogs')
+  }
+}
 </script>
